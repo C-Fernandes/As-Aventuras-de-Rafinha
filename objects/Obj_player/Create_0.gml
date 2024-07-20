@@ -1,4 +1,3 @@
-
 gravidade = 0.3;
 velocidade = 0.1;
 velocidade_chao = velocidade;
