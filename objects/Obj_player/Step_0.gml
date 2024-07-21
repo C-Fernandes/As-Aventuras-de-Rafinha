@@ -9,11 +9,20 @@ velocidade_horizontal = lerp(velocidade_horizontal, avanco_h, velocidade);
 if(abs(velocidade_horizontal) < 0.6){
 	velocidade_horizontal= 0;
 }
-if(keyboard_lastkey = ord("A")){
+if(velocidade_horizontal < 0){
 	image_xscale = -1;
 }
-if(keyboard_lastkey = ord("D")){
+if(velocidade_horizontal > 0){
 image_xscale =1;
+}
+
+if(instance_exists(Obj_enemy) && !y < Obj_enemy.y){
+	if(place_meeting(x,y,Obj_enemy)){
+		if(!velocidade_vertical > 0){
+			x = global.checkpoint_x;
+			y = global.checkpoint_y;
+		}
+	}
 }
 if(!chao ){
 	if(velocidade_vertical < 0){

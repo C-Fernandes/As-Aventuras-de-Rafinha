@@ -6,3 +6,6 @@ velocidade_horizontal = 0;
 velocidade_vertical = 0;
 velocidade_h_max = 6;
 pulo = 9;
+
+global.checkpoint_x = x;
+global.checkpoint_y = y;
