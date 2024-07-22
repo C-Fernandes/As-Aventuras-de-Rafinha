@@ -1,4 +1,5 @@
-var chao = place_meeting(x, y + 1, Obj_block);
+var chao = place_meeting(x, y + 1, Obj_block) || place_meeting(x, y + 1, Obj_block_2) || place_meeting(x, y + 1, Obj_block_3);
+
 
 var esquerda = keyboard_check(ord("A")) || keyboard_check(vk_left);
 var direita = keyboard_check(ord("D")) || keyboard_check(vk_right);

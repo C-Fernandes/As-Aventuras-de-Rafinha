@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_terra",
+  "%Name":"Obj_block_2",
   "eventList":[],
   "managed":true,
-  "name":"Obj_terra",
+  "name":"Obj_block_2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_terra",
-    "path":"sprites/Spr_terra/Spr_terra.yy",
+    "name":"Spr_Block_2",
+    "path":"sprites/Spr_Block_2/Spr_Block_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
