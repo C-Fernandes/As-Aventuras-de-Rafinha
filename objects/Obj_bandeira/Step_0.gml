@@ -1,0 +1,1 @@
+if(place_meeting(x,y,Obj_player)) room_goto_next();

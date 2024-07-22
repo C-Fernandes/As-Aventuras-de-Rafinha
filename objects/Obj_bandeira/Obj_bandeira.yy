@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_enemy",
+  "%Name":"Obj_bandeira",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_enemy",
+  "name":"Obj_bandeira",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Careca",
-    "path":"sprites/Spr_Careca/Spr_Careca.yy",
+    "name":"Spr_fase",
+    "path":"sprites/Spr_fase/Spr_fase.yy",
   },
   "spriteMaskId":null,
   "visible":true,
