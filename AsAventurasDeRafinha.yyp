@@ -37,6 +37,7 @@
   "name":"AsAventurasDeRafinha",
   "resources":[
     {"id":{"name":"Font_menu","path":"fonts/Font_menu/Font_menu.yy",},},
+    {"id":{"name":"Font_titulo","path":"fonts/Font_titulo/Font_titulo.yy",},},
     {"id":{"name":"Obj_bandeira","path":"objects/Obj_bandeira/Obj_bandeira.yy",},},
     {"id":{"name":"Obj_block_2","path":"objects/Obj_block_2/Obj_block_2.yy",},},
     {"id":{"name":"Obj_block_3","path":"objects/Obj_block_3/Obj_block_3.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"Obj_menu","path":"objects/Obj_menu/Obj_menu.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Obj_raposa","path":"objects/Obj_raposa/Obj_raposa.yy",},},
+    {"id":{"name":"Obj_titulo","path":"objects/Obj_titulo/Obj_titulo.yy",},},
     {"id":{"name":"Room_tela_inicial","path":"rooms/Room_tela_inicial/Room_tela_inicial.yy",},},
     {"id":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -79,6 +81,7 @@
     {"id":{"name":"Spr_terra_3","path":"sprites/Spr_terra_3/Spr_terra_3.yy",},},
     {"id":{"name":"Spr_terra_4","path":"sprites/Spr_terra_4/Spr_terra_4.yy",},},
     {"id":{"name":"Spr_terra","path":"sprites/Spr_terra/Spr_terra.yy",},},
+    {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
