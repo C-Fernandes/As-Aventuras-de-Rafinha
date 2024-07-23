@@ -1,2 +1,2 @@
-options = ["Iniciar Jogo", "Como Jogar", "Configurações", "Sair"];
+options = ["Iniciar Jogo", "Como Jogar", "Ajustes", "Sair"];
 index = 0;
