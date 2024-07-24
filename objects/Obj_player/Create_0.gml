@@ -16,5 +16,3 @@ is_in_menu = false;
 limite_queda = room_height + 100;
 pulo = 8;
 
-global.checkpoint_x = x;
-global.checkpoint_y = y;

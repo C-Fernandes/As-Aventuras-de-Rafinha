@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Chão e terra",
+    "path":"folders/Sprites/Chão e terra.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

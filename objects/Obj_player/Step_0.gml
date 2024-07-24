@@ -40,19 +40,11 @@ if (is_in_menu) {
 	image_xscale =1;
 	}
 	
-	if(instance_exists(Obj_enemy) && !y < Obj_enemy.y){
-		if(place_meeting(x,y,Obj_enemy)){
-			if(!velocidade_vertical > 0){
-				x = global.checkpoint_x;
-				y = global.checkpoint_y;
-			}
-		}
-	}
-	if(instance_exists(Obj_raposa) && !y < Obj_raposa.y){
+	
+	if(instance_exists(Obj_raposa) ){
 		if(place_meeting(x,y,Obj_raposa)){
 			if(!velocidade_vertical > 0){
-				x = global.checkpoint_x;
-				y = global.checkpoint_y;
+				room_restart();
 			}
 		}
 	}
@@ -79,10 +71,9 @@ if (is_in_menu) {
 	velocidade_horizontal = clamp(velocidade_horizontal, -velocidade_h_max, velocidade_h_max);
 	
 	if (y > limite_queda) {
-	    x = global.checkpoint_x;
-	    y = global.checkpoint_y;
 	    velocidade_vertical = 0;
 	    velocidade_horizontal = 0;
+		room_restart();
 	}
 }
 
