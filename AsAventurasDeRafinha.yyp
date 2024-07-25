@@ -57,9 +57,10 @@
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Obj_raposa","path":"objects/Obj_raposa/Obj_raposa.yy",},},
     {"id":{"name":"Obj_titulo","path":"objects/Obj_titulo/Obj_titulo.yy",},},
+    {"id":{"name":"Object18","path":"objects/Object18/Object18.yy",},},
     {"id":{"name":"Room_tela_inicial","path":"rooms/Room_tela_inicial/Room_tela_inicial.yy",},},
-    {"id":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Sound_menu","path":"sounds/Sound_menu/Sound_menu.yy",},},
     {"id":{"name":"Sound_pulo","path":"sounds/Sound_pulo/Sound_pulo.yy",},},
     {"id":{"name":"Spr_Arvore","path":"sprites/Spr_Arvore/Spr_Arvore.yy",},},
@@ -95,7 +96,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room_tela_inicial","path":"rooms/Room_tela_inicial/Room_tela_inicial.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

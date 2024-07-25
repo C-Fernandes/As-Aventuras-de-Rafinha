@@ -1,4 +1,4 @@
-blocos = [Obj_block, Obj_block_2, Obj_block_3, Obj_block_terra, Obj_block_terra_2];
+blocos = [Obj_block, Obj_block_2, Obj_block_3, Obj_block_terra, Obj_pedra,Obj_block_terra_2];
 
 // Verifica colisão horizontal
 var colisao_horizontal = false;

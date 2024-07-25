@@ -21,9 +21,13 @@ if (is_in_menu) {
         sprite_index = Spr_Rafinha; // Sprite parado
     }
 } else {
-	var chao = place_meeting(x, y + 1, Obj_block) || place_meeting(x, y + 1, Obj_block_2) || place_meeting(x, y + 1, Obj_block_3);
-	
-	
+var chao = place_meeting(x, y + 1, Obj_block) || 
+           place_meeting(x, y + 1, Obj_block_2) || 
+           place_meeting(x, y + 1, Obj_block_3) || 
+           place_meeting(x, y + 1, Obj_block_terra) || 
+           place_meeting(x, y + 1, Obj_block_terra_2) || 
+           place_meeting(x, y + 1, Obj_pedra);
+
 	var esquerda = keyboard_check(ord("A")) || keyboard_check(vk_left);
 	var direita = keyboard_check(ord("D")) || keyboard_check(vk_right);
 	var pulando = keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up); //checa se apenas clicou, não segurou
@@ -43,6 +47,13 @@ if (is_in_menu) {
 	
 	if(instance_exists(Obj_raposa) ){
 		if(place_meeting(x,y,Obj_raposa)){
+			if(!velocidade_vertical > 0){
+				room_restart();
+			}
+		}
+	}
+	if(instance_exists(Obj_enemy) ){
+		if(place_meeting(x,y,Obj_enemy)){
 			if(!velocidade_vertical > 0){
 				room_restart();
 			}
