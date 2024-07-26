@@ -1,0 +1,1 @@
+mostrar = global.mostrar_pergunta;
