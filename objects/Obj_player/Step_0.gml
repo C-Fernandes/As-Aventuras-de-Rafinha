@@ -53,7 +53,7 @@ var chao = place_meeting(x, y + 1, Obj_block) ||
 		}
 	}
 	if(instance_exists(Obj_enemy) ){
-		if(place_meeting(x+25,y-25,Obj_enemy)){
+		if(place_meeting(x-30.2,y-25,Obj_enemy)){
 			if(!velocidade_vertical > 0){
 				room_restart();
 			}
