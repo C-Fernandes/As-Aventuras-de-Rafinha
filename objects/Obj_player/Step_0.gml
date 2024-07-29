@@ -20,7 +20,15 @@ if (is_in_menu) {
     } else {
         sprite_index = Spr_Rafinha; // Sprite parado
     }
-} else {
+} else if (is_in_game_over) {
+        x = 704; // Centraliza horizontalmente
+        y = 320; // Posiciona no meio da tela
+        velocidade_vertical = 0; // Para o movimento
+        velocidade_horizontal = 0; // Para o movimento
+    // Não faz mais nada, personagem permanece parada
+}
+
+else {
 var chao = place_meeting(x, y + 1, Obj_block) || 
            place_meeting(x, y + 1, Obj_block_2) || 
            place_meeting(x, y + 1, Obj_block_3) || 
@@ -48,14 +56,16 @@ var chao = place_meeting(x, y + 1, Obj_block) ||
 	if(instance_exists(Obj_raposa) ){
 		if(place_meeting(x,y,Obj_raposa)){
 			if(!velocidade_vertical > 0){
-				room_restart();
+				audio_play_sound(Sound_game_over, 1, false);
+				room_goto(Room_game_over);
 			}
 		}
 	}
 	if(instance_exists(Obj_enemy) ){
 		if(place_meeting(x-30.2,y-25,Obj_enemy)){
 			if(!velocidade_vertical > 0){
-				room_restart();
+				audio_play_sound(Sound_game_over, 1, false);
+				room_goto(Room_game_over);
 			}
 		}
 	}
@@ -77,14 +87,13 @@ var chao = place_meeting(x, y + 1, Obj_block) ||
 	}
 	if(chao && pulando){
 	velocidade_vertical += -pulo;
+	global.quantidade_pulos++;
 	audio_play_sound(Sound_pulo, 1, false);
 	}
 	velocidade_horizontal = clamp(velocidade_horizontal, -velocidade_h_max, velocidade_h_max);
 	
 	if (y > limite_queda) {
-	    velocidade_vertical = 0;
-	    velocidade_horizontal = 0;
-		room_restart();
+		audio_play_sound(Sound_trompete, 1, false);
+	    room_goto(Room_game_over);
 	}
 }
-

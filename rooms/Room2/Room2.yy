@@ -530,6 +530,7 @@
     {"name":"inst_71C88208","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_1B117FA4","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_231896DA","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_2E8246D2","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -1373,6 +1374,7 @@
         {"$GMRInstance":"v1","%Name":"inst_40D4ABDF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40D4ABDF","objectId":{"name":"Obj_block_terra","path":"objects/Obj_block_terra/Obj_block_terra.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":91.71804,"scaleX":1.0,"scaleY":1.0,"x":7648.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_905E250","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_905E250","objectId":{"name":"Obj_block_terra","path":"objects/Obj_block_terra/Obj_block_terra.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":91.71804,"scaleX":1.0,"scaleY":1.0,"x":7712.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_5A73BE3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A73BE3","objectId":{"name":"Obj_block_terra","path":"objects/Obj_block_terra/Obj_block_terra.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":91.71804,"scaleX":1.0,"scaleY":1.0,"x":7776.0,"y":480.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2E8246D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E8246D2","objectId":{"name":"Obj_galinha","path":"objects/Obj_galinha/Obj_galinha.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7776.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Pedras","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_7513B9B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7513B9B6","objectId":{"name":"Obj_pedra","path":"objects/Obj_pedra/Obj_pedra.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":-1.0,"x":2341.0,"y":253.0,},

@@ -1,0 +1,1 @@
+Obj_player.is_in_game_over = true;

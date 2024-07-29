@@ -1,13 +1,8 @@
-var quantidade_pulos = global.quantidade_pulos;
-
-perguntas = ["Quantas raposas você \nencontrou até chegar aqui?",
-	"Quantos blocos flutuantes \nhaviam nessa fase?",
-	"Quantos pulos você precisou \ndar até chegar ao fim?"
+perguntas = ["Quantas cavernas haviam \nnessa fase?",
+	"Quantos personagens carecas \n você encontrou?",
 ];
-respostas = [["Uma", "Duas", "Três"],
-	["Cinco", "Sete", "Nove"],
-	[string(quantidade_pulos-2) + " pulos", string(quantidade_pulos) + " pulos", string(quantidade_pulos+3) + " pulos"]
-
+respostas = [["Duas", "Três", "Quatro"],
+	["Um", "Dois", "Três"],
 ];
 respostas_corretas = [1, 2, 1]; // Índices das respostas corretas para cada pergunta
 
@@ -26,6 +21,7 @@ function verificar_resposta(indice) {
 
         if (indice_pergunta_atual >= array_length(perguntas)) {
             // Se todas as perguntas foram respondidas corretamente
+			audio_play_sound(Sound_fim_de_jogo, 1, false);
             room_goto_next(); // Exemplo de mudança de fase
         }
     } else {

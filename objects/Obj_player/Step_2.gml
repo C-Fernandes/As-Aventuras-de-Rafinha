@@ -33,4 +33,3 @@ if (colisao_vertical) {
     velocidade_vertical = 0;
 }
 y += velocidade_vertical;
-
