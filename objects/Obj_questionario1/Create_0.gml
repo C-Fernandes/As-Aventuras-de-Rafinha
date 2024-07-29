@@ -26,6 +26,7 @@ function verificar_resposta(indice) {
 
         if (indice_pergunta_atual >= array_length(perguntas)) {
             // Se todas as perguntas foram respondidas corretamente
+
             room_goto_next(); // Exemplo de mudança de fase
         }
     } else {

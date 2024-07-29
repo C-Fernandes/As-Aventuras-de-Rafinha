@@ -54,6 +54,7 @@
     {"id":{"name":"Obj_controlador","path":"objects/Obj_controlador/Obj_controlador.yy",},},
     {"id":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},},
     {"id":{"name":"Obj_galinha","path":"objects/Obj_galinha/Obj_galinha.yy",},},
+    {"id":{"name":"Obj_game_manager","path":"objects/Obj_game_manager/Obj_game_manager.yy",},},
     {"id":{"name":"Obj_game_over","path":"objects/Obj_game_over/Obj_game_over.yy",},},
     {"id":{"name":"Obj_menu","path":"objects/Obj_menu/Obj_menu.yy",},},
     {"id":{"name":"Obj_msg_fim_fase_2","path":"objects/Obj_msg_fim_fase_2/Obj_msg_fim_fase_2.yy",},},

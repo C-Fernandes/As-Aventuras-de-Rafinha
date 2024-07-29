@@ -1,3 +1,7 @@
+
+
+
+
 // Verificar se o personagem está no menu
 if (is_in_menu) {
     // Lógica de movimento automático para o menu
@@ -57,6 +61,7 @@ var chao = place_meeting(x, y + 1, Obj_block) ||
 		if(place_meeting(x,y,Obj_raposa)){
 			if(!velocidade_vertical > 0){
 				audio_play_sound(Sound_game_over, 1, false);
+				global.prev_room = room;
 				room_goto(Room_game_over);
 			}
 		}
@@ -65,6 +70,7 @@ var chao = place_meeting(x, y + 1, Obj_block) ||
 		if(place_meeting(x-30.2,y-25,Obj_enemy)){
 			if(!velocidade_vertical > 0){
 				audio_play_sound(Sound_game_over, 1, false);
+				global.prev_room = room;
 				room_goto(Room_game_over);
 			}
 		}
@@ -94,6 +100,7 @@ var chao = place_meeting(x, y + 1, Obj_block) ||
 	
 	if (y > limite_queda) {
 		audio_play_sound(Sound_trompete, 1, false);
+		global.prev_room = room; 
 	    room_goto(Room_game_over);
 	}
 }
