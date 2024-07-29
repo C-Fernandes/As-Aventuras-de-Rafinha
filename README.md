@@ -1,21 +1,25 @@
-# As-Aventuras-de-Rafinha
-As aventuras da corajosa Rafinha, a galinha.
+# As Aventuras de Rafinha
 
-### Controles:
+Bem-vindo As Aventuras de Rafinha! Siga este guia rápido para começar a jogar e se divertir.
 
-Teclas WASD e setas  para movimentação e mouse para interagir com o menu e os questionários.
+## Mini Tutorial de Como Jogar
 
-### Elementos de Interface:
+### Controles
 
-Menu principal com opções para seleção (Iniciar jogo, Configurações, Como jogar e Sair);
-Questionário de fim de fase.
+- **Movimentação do Personagem:**
+  - **Teclas WASD:** Utilize estas teclas para mover o personagem para cima, baixo, esquerda e direita.
+  - **Teclas de Setas:** Alternativamente, use as setas direcionais do teclado para movimentar o personagem.
 
-### Estilo Visual:
+- **Interação com o Menu e Questionários:**
+  - **Mouse:** Clique para navegar pelos menus e responder aos questionários.
 
-Arte em 2D cartunesca com cores vibrantes.
-Detalhes que destacam o ambiente da floresta de forma amigável e convidativa.
+### Objetivo do Jogo
 
-### Cores Dominantes:
+Seu objetivo é guiar o personagem através das fases, desviando de raposas, objetos e inimigos que encontrarem pelo caminho. No final de cada fase, você será desafiado a responder a perguntas relacionadas à fase para avançar.
 
-Tons de verde para vegetação.
-Marrom e cinza para troncos e pedras.
+### Dicas
+
+- **Desvios:** Fique atento aos obstáculos e inimigos. Use as teclas de movimentação para desviar e evitar colisões.
+- **Interação com Perguntas:** Quando chegar ao final da fase, use o mouse para selecionar a resposta correta para as perguntas apresentadas.
+
+Divirta-se jogando e boa sorte!
